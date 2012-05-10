@@ -1,0 +1,23 @@
+@import 'compass/css3';
+
+body {
+    padding-top: 90px;
+    background-color: #FFF;
+}
+
+.subhead h1{
+    font-size: 54px;
+    line-height: 1;
+    margin-bottom: 9px;
+}
+
+.navbar-fixed-top .brand {
+    float: right;
+    font-weight: bold;
+    color: #000;
+    @include text-shadow(0 1px 0 rgba(#FFF, 0.1), 0 0 30px rgba(#FFF, 0.125));
+}
+
+.well {
+    padding: 0;
+}

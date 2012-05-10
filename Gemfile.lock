@@ -1,0 +1,116 @@
+GIT
+  remote: https://jmwhittaker@github.com/jmwhittaker/sinatra-backbone.git
+  revision: 98a5464b94bd415b0648b6299a668c18c80cfee9
+  specs:
+    sinatra-backbone (0.1.0.rc2)
+      sinatra
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    barista (1.2.1)
+      coffee-script (~> 2.2)
+    chunky_png (1.2.5)
+    coffee-script (2.2.0)
+      coffee-script-source
+      execjs
+    coffee-script-source (1.3.1)
+    compass (0.12.1)
+      chunky_png (~> 1.2)
+      fssm (>= 0.2.7)
+      sass (~> 3.1)
+    diff-lcs (1.1.3)
+    execjs (1.3.1)
+      multi_json (~> 1.0)
+    ffi (1.0.11)
+    fssm (0.2.9)
+    growl (1.0.3)
+    guard (1.0.2)
+      ffi (>= 0.5.0)
+      thor (~> 0.14.6)
+    guard-coffeescript (0.6.0)
+      coffee-script (>= 2.2.0)
+      guard (>= 0.8.3)
+    guard-compass (0.0.6)
+      compass (>= 0.10.5)
+      guard (>= 0.2.1)
+    guard-jasmine-headless-webkit (0.4.0.rc1)
+      guard (>= 0.4.0)
+      jasmine-headless-webkit (>= 0.7.0)
+    guard-rspec (0.7.0)
+      guard (>= 0.10.0)
+    hike (1.2.1)
+    jasmine-core (1.1.0)
+    jasmine-headless-webkit (0.9.0.rc.2)
+      coffee-script
+      jasmine-core
+      multi_json (>= 1.2.0)
+      rainbow
+      sprockets
+      sprockets-vendor_gems
+    jsmin (1.0.1)
+    json (1.7.1)
+    multi_json (1.3.4)
+    rack (1.4.1)
+    rack-protection (1.2.0)
+      rack
+    rack-test (0.6.1)
+      rack (>= 1.0)
+    rainbow (1.1.4)
+    rb-fsevent (0.9.1)
+    redis (2.2.2)
+    rspec (2.10.0)
+      rspec-core (~> 2.10.0)
+      rspec-expectations (~> 2.10.0)
+      rspec-mocks (~> 2.10.0)
+    rspec-core (2.10.0)
+    rspec-expectations (2.10.0)
+      diff-lcs (~> 1.1.3)
+    rspec-mocks (2.10.1)
+    sass (3.1.17)
+    shotgun (0.9)
+      rack (>= 1.0)
+    sinatra (1.3.2)
+      rack (~> 1.3, >= 1.3.6)
+      rack-protection (~> 1.2)
+      tilt (~> 1.3, >= 1.3.3)
+    sinatra-assetpack (0.0.11)
+      jsmin
+      rack-test
+      sinatra
+      tilt (>= 1.3.0)
+    sinatra-support (1.2.2)
+      sinatra (>= 1.0)
+    sprockets (2.4.1)
+      hike (~> 1.2)
+      multi_json (~> 1.0)
+      rack (~> 1.0)
+      tilt (~> 1.1, != 1.3.0)
+    sprockets-vendor_gems (0.1.1)
+    thor (0.14.6)
+    tilt (1.3.3)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  barista
+  coffee-script
+  compass
+  growl
+  guard
+  guard-coffeescript
+  guard-compass
+  guard-jasmine-headless-webkit (~> 0.4.0.rc1)
+  guard-rspec
+  jasmine-headless-webkit (~> 0.9.0.rc1)
+  json
+  rb-fsevent
+  redis
+  rspec
+  sass
+  shotgun
+  sinatra
+  sinatra-assetpack
+  sinatra-backbone!
+  sinatra-support

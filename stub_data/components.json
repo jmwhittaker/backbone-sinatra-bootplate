@@ -1,0 +1,17 @@
+{
+    "components": [{
+        "name": "Backbone"
+    }, {
+        "name": "CoffeeScript"
+    }, {
+        "name": "Bootstrap"
+    }, {
+        "name": "Hogan.js"
+    }, {
+        "name": "Sinatra"
+    }, {
+        "name": "SASS"
+    }, {
+        "name": "Compass"
+    }]
+}
