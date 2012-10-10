@@ -7,7 +7,7 @@ gem 'compass'
 gem 'coffee-script'
 gem 'barista'
 gem 'json'
-gem 'sinatra-backbone', :git => 'https://jmwhittaker@github.com/jmwhittaker/sinatra-backbone.git'
+gem 'sinatra-backbone', :git => 'https://github.com/jmwhittaker/sinatra-backbone.git'
 gem 'sinatra-assetpack', :require => 'sinatra/assetpack'
 gem 'sinatra-support', :require => 'sinatra/support'
 
